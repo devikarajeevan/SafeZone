@@ -1,0 +1,55 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px black;
+    padding: 20px;
+    max-height: 30px;
+    padding-left: 0px;
+    margin-left:0px;
+    font-family: 'Caudex';
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.08)  );
+  }
+  
+  .navbar-left {
+    flex: 1;
+    max-width: 10px;
+    padding-top:10px
+  }
+  
+  .icon-button {
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    cursor:pointer;
+  }
+  
+  .icon-button img{
+    width:300px;
+    padding-left:2px;
+  }
+  .navbar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .navbar-link {
+    color: black; /* Adjust to match button color */
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.504);
+    padding: 4px 10px 4px 14px;
+    border-radius: 20px;
+    width:45px;
+    margin-left: 20px;
+    margin-right: 20px; /* Adjust spacing between links */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    border-top-right-radius: 0px; 
+  }
+  
+  .navbar-link:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Darker blue on hover */
+    border-top-right-radius: 20px;
+  }

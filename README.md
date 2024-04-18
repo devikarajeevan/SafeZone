@@ -1,3 +1,4 @@
+![SAFEZONE Logo](public/assets/safezone-logo.png)
 # SAFEZONE
 
 SAFEZONE is a platform designed to provide seamless matching between seekers and providers of temporary shelter during natural disasters. Our mission is to swiftly connect those in need with compassionate hosts who can offer safe accommodation. Additionally, SAFEZONE facilitates the efficient distribution of essential supplies to disaster relief camps.
